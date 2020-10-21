@@ -1,5 +1,9 @@
 # Ignoring data files
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Apple
+.DS_Store
+
 
