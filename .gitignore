@@ -1,0 +1,5 @@
+# Ignoring data files
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
