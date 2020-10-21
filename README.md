@@ -1,8 +1,10 @@
 ## Overview
 
-This Python Jupyter Notebook demonstrate prediction of Premiere League games based on a random simulation based the Poison distribution. The method is based on this Medium article on [Poisson process and match prediction](https://towardsdatascience.com/o-jogo-bonito-predicting-the-premier-league-with-a-random-model-1b02fa3a7e5a).
+This Python Jupyter Notebook demonstrate prediction of Premiere League games based on a random simulation based the Poison distribution. The method is inspired by this [Medium](https://medium.com) article on [Poisson process and match prediction](https://towardsdatascience.com/o-jogo-bonito-predicting-the-premier-league-with-a-random-model-1b02fa3a7e5a).
 
-The data files contains the results of all Premiere League matches since 2014/15 season. The files are captured from the [Football-Data site](https://www.football-data.co.uk/englandm.php). 
+The data files contains the results of all Premiere League matches since 2014/15 season. The files are captured from the [Football-Data site](https://www.football-data.co.uk/englandm.php).
+
+The model calculate the average goals scored for home and away team in the previous matches. Then simulate 500 games between the teams where the goals scored follow a Poison distribution. The outcome determine the prediction.  
 
 The columns in the CSV files are defined as follow:
 - Div = League Division
